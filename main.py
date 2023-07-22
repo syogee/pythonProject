@@ -1,7 +1,7 @@
-num = int(input("enter a no"))
 a = int(input("how many times"))
 b=0
 while b<a:
+  num = int(input("enter a no"))
   factorial = 1
   if num < 0:
     print("Sorry, factorial does not exist for negative numbers")
